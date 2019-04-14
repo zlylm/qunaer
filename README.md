@@ -5,17 +5,12 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# 2019-4-14
+1.搭建基本环境
+2.安装sass
+3.安装 vue-awesome-swiper 轮播图
+4.连接线上github
+5.开发导航组件
+6.开发轮播图组件
+7.按需使用字体图标
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

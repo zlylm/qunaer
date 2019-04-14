@@ -36,6 +36,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'mycss': resolve('static/css'),
     }
   },
   module: {
@@ -74,6 +75,10 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
+      },
+      {  //编译识别sass!
+        test: /\.scss$/,
+        loaders: ["style", "css", "sass"]
       }
     ]
   },
