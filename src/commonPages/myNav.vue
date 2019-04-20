@@ -50,6 +50,7 @@ export default {
   }
 }
 </script>
+
 <style lang="scss">
 @import '~mycss/mixins.scss';
 .my-nav{
