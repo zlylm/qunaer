@@ -54,6 +54,7 @@ export default {
 <style lang="scss">
 @import '~mycss/mixins.scss';
 .my-nav{
+  background:#fff;
     .nav-home{
         box-sizing: border-box;
         padding-top:0.1rem;
