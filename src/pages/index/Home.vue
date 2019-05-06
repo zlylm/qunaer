@@ -8,11 +8,11 @@
   </div>
 </template>
 <script>
-import myHeader from '@/commonPages/myHeader.vue'
-import mySwiper from '@/commonPages/mySwiper.vue'
-import myNav from '@/commonPages/myNav.vue'
-import hotRecommend from '@/commonPages/hotRecommend.vue'
-import weekend from '@/commonPages/weekend.vue'
+import myHeader from './components/Header.vue'
+import mySwiper from './components/Swiper.vue'
+import myNav from './components/Nav.vue'
+import hotRecommend from './components/hotRecommend.vue'
+import weekend from './components/Weekend.vue'
 export default {
   components: {
     myHeader,

@@ -7,16 +7,19 @@
             <span class="icon iconfont">&#xe607;</span>
             输入城市/景点/游玩主题
         </div>
-        <div class="right">
-            厦门
-            <span class="icon iconfont">&#xe64a;</span>
-        </div>
+        <router-link to="/city">
+            <div class="right">
+                {{city}}
+                <span class="icon iconfont">&#xe64a;</span>
+            </div>
+        </router-link>
     </div>
 </template>
 <script>
 export default {
   data () {
     return {
+      city: '厦门'
     }
   }
 }
@@ -51,6 +54,8 @@ export default {
     .right{
         padding:0.2rem;
         font-size: 0.28rem;
+        color: #fff;
+        cursor: pointer;
         .icon{
             font-size: .26rem;
         }
