@@ -9,18 +9,18 @@
         </div>
         <router-link to="/city">
             <div class="right">
-                {{city}}
+                {{this.test}}
                 <span class="icon iconfont">&#xe64a;</span>
             </div>
         </router-link>
     </div>
 </template>
 <script>
+import {mapState, mapGetters} from 'vuex'
 export default {
-  data () {
-    return {
-      city: '厦门'
-    }
+  computed: {
+    ...mapState(['city']),
+    ...mapGetters(['test'])
   }
 }
 </script>

@@ -32,3 +32,9 @@
 1.重新整理组件目录结构
 2.开发 "选择城市页面" 中的顶部组件和搜索框组件
 
+# 2019-5-18
+1.使用Vuex配合localStorage实现数据持久化（页面刷新，数据还在）
+2.熟悉Vuex中state的用法 （有点类似于vue中的data属性）
+3.熟悉Vuex中mutations的用法 （用来修改state的值，action也可以修改state的值）
+4.熟悉Vuex中getters的用法 （它是Vuex中的计算属性，与Vue中computed的用法一致）
+
